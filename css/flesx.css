@@ -44,7 +44,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://rmt.dogedoge.com/fetch/Flexiston/storage/ava.jpg) no-repeat;
+    background: url(https://avatars.githubusercontent.com/u/41413559?v=4) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
@@ -172,7 +172,7 @@ body {
 
 .cmd {
     width: 600px;
-    height: 400px;
+    height: 460px;
     border-radius: 10px 10px 5px 5px;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.9);
@@ -186,7 +186,7 @@ body {
 
 .cmd:hover {
     width: 610px;
-    height: 410px;
+    height: 470px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin: -5px 0 0 -5px;
     z-index: 1;
@@ -255,22 +255,16 @@ body {
     padding-left: 15px;
 }
 
-.cmd2 {
-    position: relative;
-    top: -280px;
-    left: 100px;
-}
-
-.cmd2 .cmdText .ul {
+.cmd .cmdText .ul {
     margin-left: 15px;
 }
 
-.cmd2 .cmdText .ul a {
+.cmd .cmdText .ul a {
     text-decoration: none;
     color: rgb(88, 89, 92);
 }
 
-.cmd2 .cmdText .ul a:hover {
+.cmd .cmdText .ul a:hover {
     color: rgb(0, 132, 255);
 }
 
